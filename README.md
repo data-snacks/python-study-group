@@ -1,1 +1,2 @@
-# python-study-group
+# Python Study Group
+
