@@ -1,2 +1,3 @@
 # Python Study Group
 
+The Python Study Group is a collaborative learning experience designed for individuals interested in mastering Python programming. Participants meet regularly to explore various aspects of Python, including its syntax, data structures, libraries, and best practices. Through interactive sessions, group members engage in hands-on exercises, code reviews, and discussions, fostering a supportive environment for learning and growth. Whether you're a beginner looking to build a solid foundation in Python or an experienced programmer seeking to enhance your skills, the Python Study Group provides a structured and engaging platform to achieve your learning goals.

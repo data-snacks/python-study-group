@@ -1,4 +1,4 @@
-# Basic
+# Basicos
 1. Desarrolla un programa que solicite al usuario que ingrese su nombre. El programa debe emitir un mensaje de bienvenida que incluya el nombre ingresado.
 
 1. Crea un programa que permita ingresar 3 notas correspondientes a tres trimestres distintos para un alumno de nivel secundario. Debe calcularse y mostrarse la nota promedio.
@@ -43,81 +43,20 @@
 1. Escribe una función que tome dos cadenas como argumentos y devuelva True si son anagramas (es decir, si contienen las mismas letras en diferente orden), y False en caso contrario.
 
 ## Listas
-1.
-lista = ['Alicia', 1998, 'Bob', 1990, 'Carlos', 1986, 'David', 2001]
-Question 3
-Tienes la siguiente lista con nombres de clientes y sus años de nacimiento.
-Quieres imprimir el nombre de cada cliente seguido de su año de nacimiento, por ejemplo, para la lista anterior quieres imprimir:
-
-Alicia 1998
-Bob 1990
-Carlos 1986
-David 2001
-
- 1.
-lista = ['Alicia', 'Bob', 'Carlos', 'David']
-Quieres imprimir el nombre de los clientes de atrás hacía adelante, por ejemplo, para la lista anterior deberás imprimir:
-
-David
-Carlos
-Bob
-Alicia
-
-1.
-
-m = ['Pelusa', 'Luke', 'Mickey', 'Madonna']
-El dueño en la posición 0 tiene la mascota en la posición 0, el dueño en la posición 1 tiene la mascota en la posición 1 y así. Quieres imprimir el nombre de cada cliente dueño seguido del nombre de su mascota, por ejemplo, para las listas anteriores quieres imprimir:
-
-Alicia Pelusa
-Bob Luke
-Carlos Mickey
-David Madonna
-
-1. 
-Tienes una lista con datos de una estación meteorológica, esta contiene los strings 'soleado', 'nublado' o 'lluvia'. Siempre después de lluvia viene un float con la cantidad de milímetros de agua que cayeron durante la llovizna. Un ejemplo de esta lista es:
-lista = ['soleado', 'nublado', 'soleado', 'lluvia', 2.4, 'lluvia', 0.1, 'nublado', 'lluvia', 0.8]
-¿Cuál de los siguientes códigos imprime la suma total de milímetros de agua que cayeron?
 
 ## Tuplas
 
-1.
-
-def imprimir_hora(mes,dia,hora,minuto,segundo):
-    print('Hoy es '+ str(dia)+ ' de ' + str(mes) + ' y son las:')
-    print(str(hora) + ':'+str(minuto)+':' + str(segundo))
-
-No te gusta que la función anterior reciba tantos parámetros, por lo que decides entregarlo simplemente una tupla con toda la información.
-
-1.
-
-m1 = ('Toy Story', 1995, '01:21', ['animacion', 'comedia’])
-uego de hablar con tu agente te recomienda que agregues a la lista de categorías la categoría infantil. ¿Cuál de los siguientes códigos agrega correctamente la categoría?
-
-1.
-El profesor acaba de volver a corregir las notas y tu nota en la primera evaluación subió de 2.0 a 3.2. Como sabes que las tuplas no son mutables decides pasar todas tus notas a una lista y reemplazar el 2.0 por el 3.2. ¿Cuál de los siguientes códigos hace lo pedido correctamente? 
-
-1.
-
-clientes = ['Alicia', 'Bob', 'Carlos', 'David']
-clientes_nuevos = ('Eva', 'Fabricio', 'Gloria')
-Quieres agregar todos los clientes de la tupla clientes_nuevos a la lista clientes ¿Cuál de los siguientes códigos lo hace correctamente?
-
-1. 
-
-tupla = (0,1,2,2,2,4,2,1,2,4,4,4,0,0)
-Necesitas ordenar los valores en la tupla, para esto decides crear una lista y luego agregar en orden los números en la tupla. ¿Cuál de los siguientes códigos hace lo pedido correctamente?
-
-# Tipo de datos y condiciones
+# Condiciones
 
 # Repeticiones
 
 # Clásicos y famosos
 
-## Algoritmos de búsqueda:
+## búsqueda
 
 1. Búsqueda lineal.
 1. Búsqueda binaria.
 
-## Algoritmos de ordenamiento:
+## ordenamiento
 
 1. Ordenamiento burbuja
