@@ -54,7 +54,7 @@ Script: paquetes
   - Ambiente Virtuales (Creacion ,activacion, desactivacion, requirement)
 - Uso
   - Resquests: [Requests](https://requests.readthedocs.io/en/latest/)
-  - Faker: [Faker’s documentation!](https://faker.readthedocs.io/en/master/)
+
 - Sequence Types: [Built-in Types — Python 3.12.2 documentation](https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range) 
     - Operaciones básicas
 - Iterar: while, loop
@@ -63,7 +63,7 @@ Script: paquetes
 
 
 # Pendientes
-
+  - Faker: [Faker’s documentation!](https://faker.readthedocs.io/en/master/)
 Raise Errors -> ejemplo funcion imprimir_nombre(x:str)
 
 
