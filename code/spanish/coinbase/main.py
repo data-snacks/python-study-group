@@ -9,5 +9,3 @@ if __name__ == "__main__":
     print(coinbase_greeting())
     print(request_text_content_btc())
     print(request_text_content_eth())
-
-
