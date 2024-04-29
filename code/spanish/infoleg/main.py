@@ -1,15 +1,11 @@
-#from utils import *
-
+from utils import *
 import requests
 
-
+#Norma Ejemplo: https://servicios.infoleg.gob.ar/infolegInternet/anexos/35000-39999/37048/norma.htm
     
 if __name__ == "__main__":
-    #test_virtual_env()
+    test_virtual_env()
     print("Main Program")
-    url = "http://servicios.infoleg.gob.ar/infolegInternet/anexos/395000-399999/395521/norma.htm"
-    r = requests.get(url)
-    print(r.text)
-    #print(coinbase_greeting())
-    #print(request_text_content_btc())
-    #pprint(request_text_content_eth())
+    #infoleg_request -> Greetings
+    #infoleg -> request_text_content -> contenido de la norma
+
