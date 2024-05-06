@@ -1,4 +1,6 @@
 from utils import *
+from infoleg_request import *
+
 import requests
 
 #Norma Ejemplo: https://servicios.infoleg.gob.ar/infolegInternet/anexos/35000-39999/37048/norma.htm
@@ -6,6 +8,6 @@ import requests
 if __name__ == "__main__":
     test_virtual_env()
     print("Main Program")
-    #infoleg_request -> Greetings
-    #infoleg -> request_text_content -> contenido de la norma
-
+    #print(infoleg_greeting())
+    #print(request_print_context())
+    print(request_save_context())
