@@ -33,7 +33,7 @@ Script: introafunciones
 - Componentes existentes: 
   - módulos o programas individuales, paquetes o frameworks - https://pypi.org/ 
 
-# Clase 3: Paquetes Y Sequence Types
+# Clase 3: Paquetes
 Script: paquetes
 - Resolver duda: que falle si no es el tipo de dato correcto
 - Repaso:
@@ -66,7 +66,12 @@ Script: paquetes
   - Ambiente Virtuales (Creacion ,activacion, desactivacion, requirement)
 - Uso
   - Resquests: [Requests](https://requests.readthedocs.io/en/latest/)
+- Intro a Sequence Type
+- For Loop
+- Metodos String: Split e IN
   
+
+
 # Pendientes
 - Sequence Types: [Built-in Types — Python 3.12.2 documentation](https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range) 
     - Operaciones básicas
