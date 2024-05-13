@@ -49,20 +49,28 @@ Script: paquetes
 - Crear entornos de desarrollo:
     - Crear requirements.txt
 
-# Clase 4
+# Clase 4: Ambientes virtuales y request (Coinbase)
 - Repaso:
   - Ambiente Virtuales (Creacion ,activacion, desactivacion, requirement)
 - Uso
   - Resquests: [Requests](https://requests.readthedocs.io/en/latest/)
 
+# Clase 5: Ambientes virtuales y request (Infoleg) - 20240506
+- Repaso:
+  - Ambiente Virtuales (Creacion ,activacion, desactivacion, requirement)
+- Uso
+  - Resquests: [Requests](https://requests.readthedocs.io/en/latest/)
+
+# Clase 6: Ambientes virtuales y request (Infoleg) - 20240513
+- Repaso:
+  - Ambiente Virtuales (Creacion ,activacion, desactivacion, requirement)
+- Uso
+  - Resquests: [Requests](https://requests.readthedocs.io/en/latest/)
+  
+# Pendientes
 - Sequence Types: [Built-in Types — Python 3.12.2 documentation](https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range) 
     - Operaciones básicas
 - Iterar: while, loop
-
-# Clase 5
-
-
-# Pendientes
   - Faker: [Faker’s documentation!](https://faker.readthedocs.io/en/master/)
 Raise Errors -> ejemplo funcion imprimir_nombre(x:str)
 
