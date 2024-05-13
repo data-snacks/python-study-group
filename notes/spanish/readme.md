@@ -70,7 +70,11 @@ Script: paquetes
 - For Loop
 - Metodos String: Split e IN
   
-
+# Clase 7: 20240520
+- Repaso:
+  - Ambiente Virtuales (Creacion ,activacion, desactivacion, requirement)
+- Uso
+  - Resquests: [Requests](https://requests.readthedocs.io/en/latest/)
 
 # Pendientes
 - Sequence Types: [Built-in Types — Python 3.12.2 documentation](https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range) 
