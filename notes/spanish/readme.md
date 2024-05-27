@@ -70,18 +70,32 @@ Script: paquetes
 - For Loop
 - Metodos String: Split e IN
   
-# Clase 7: 20240520
+# Clase 7: 20240527
 - Repaso:
   - Ambiente Virtuales (Creacion ,activacion, desactivacion, requirement)
 - Uso
   - Resquests: [Requests](https://requests.readthedocs.io/en/latest/)
+- Sequence Type:
+  - Utilizacion de for loop
+  - Listas: agregar elemento, indices
+  - Set: Introduccion y definicion.
+- Otros Metodos: sleep(), split(), int(), float(), set(), range(), Input()
+
+# Clase 8: 20240603
+- Repaso Proyecto
+  - Request:
+    - Usar la API [time](https://api.coinbase.com/v2/time)
+    - En vez de devolver string el metodo request_text_content_btc que devuelva un diccionario y o JSON
+  - Programacion:
+    - Set
+    - Repaso I/O 
 
 # Pendientes
 - Sequence Types: [Built-in Types — Python 3.12.2 documentation](https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range) 
     - Operaciones básicas
 - Iterar: while, loop
   - Faker: [Faker’s documentation!](https://faker.readthedocs.io/en/master/)
-Raise Errors -> ejemplo funcion imprimir_nombre(x:str)
+  - Raise Errors -> ejemplo funcion imprimir_nombre(x:str)
 
 
 Desafios:
@@ -92,7 +106,6 @@ Desafios:
 5- Llena una base de datos utilizando la API que creas. Exporta el contenido de la consulta en CSV
 
 Mapping Types: Built-in Types — Python 3.12.2 documentation 
-Set types: Built-in Types — Python 3.12.2 documentation 
 dictionaries, I/O, classe, Error Handling
 
 Importar funciones desde otros proyectos: funcion hola, importar. Usar if name: https://www.freecodecamp.org/espanol/news/python-if-name-main/
