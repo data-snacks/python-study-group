@@ -1,4 +1,4 @@
-from ..coinbase_request import *
+from ..coinbase_get_prices import *
 from ..coinbase_get_time import *
 import time
 

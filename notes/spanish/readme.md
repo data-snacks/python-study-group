@@ -8,7 +8,7 @@ Proyectos Open Sources:
 - [FastAPI](https://github.com/tiangolo/fastapi)
 
 
-# Clase 1: Introducción a Python
+# Clase 1 
 Script: miprimerproyecto
 - Instalación de python
    - Abrir el primer proyecto en Vs Studio Code
@@ -22,7 +22,7 @@ Script: miprimerproyecto
 - Ejercicios prácticos para practicar la sintaxis básica.
 - Introduccion a The Python Standard Library 
 
-# Clase 2: Inputs y Funciones
+# Clase 2
 Script: introafunciones
 - Repaso
   - [Google Colab](https://colab.google/)
@@ -33,7 +33,7 @@ Script: introafunciones
 - Componentes existentes: 
   - módulos o programas individuales, paquetes o frameworks - https://pypi.org/ 
 
-# Clase 3: Paquetes
+# Clase 3
 Script: paquetes
 - Resolver duda: que falle si no es el tipo de dato correcto
 - Repaso:
@@ -49,19 +49,19 @@ Script: paquetes
 - Crear entornos de desarrollo:
     - Crear requirements.txt
 
-# Clase 4: Ambientes virtuales y request (Coinbase)
+# Clase 4
 - Repaso:
   - Ambiente Virtuales (Creacion ,activacion, desactivacion, requirement)
 - Uso
   - Resquests: [Requests](https://requests.readthedocs.io/en/latest/)
 
-# Clase 5: Ambientes virtuales y request (Infoleg) - 20240506
+# Clase 5 - 20240506
 - Repaso:
   - Ambiente Virtuales (Creacion ,activacion, desactivacion, requirement)
 - Uso
   - Resquests: [Requests](https://requests.readthedocs.io/en/latest/)
 
-# Clase 6: Ambientes virtuales y request (Infoleg) - 20240513
+# Clase 6 - 20240513
 - Repaso:
   - Ambiente Virtuales (Creacion ,activacion, desactivacion, requirement)
 - Uso
@@ -70,7 +70,7 @@ Script: paquetes
 - For Loop
 - Metodos String: Split e IN
   
-# Clase 7: 20240527
+# Clase 7 - 20240527
 - Repaso:
   - Ambiente Virtuales (Creacion ,activacion, desactivacion, requirement)
 - Uso
@@ -81,44 +81,50 @@ Script: paquetes
   - Set: Introduccion y definicion.
 - Otros Metodos: sleep(), split(), int(), float(), set(), range(), Input()
 
-# Clase 8: 20240603
+# Clase 8 - 20240603
 - Repaso Proyecto
   - Request:
     - Usar la API [time](https://api.coinbase.com/v2/time)
-    - En vez de devolver string el metodo request_text_content_btc que devuelva un diccionario y o JSON
-  - Programacion:
-    - Set
-    - Repaso I/O 
+- Programacion:
+  - Introduccion a diccionarios
+  - Otros metodos: datetime.strptime(), datetime_object.timetuple(), json.loads()
+
+# Clase 9 - 20240610
+- Renombrar script de coinbase_request a coinbase_get_prices
+- Agregar comentarios de la API que se consume:
+  - get_time
+  - get_prices 
+- Programacion
+  - Listas
+  - Sets
+  - Diccionarios
+- Metodos de datetime: strptime (string parse time), strftime (string format time), timedelta
+
 
 # Pendientes
+- Creacion de funcion coinbase_get_currencies. Usando la API [currencies](https://api.coinbase.com/v2/currencies/) Que toma datos de las cryptomonedas utilizar metodo .json
+- Input / Output
 - Sequence Types: [Built-in Types — Python 3.12.2 documentation](https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range) 
     - Operaciones básicas
 - Iterar: while, loop
   - Faker: [Faker’s documentation!](https://faker.readthedocs.io/en/master/)
   - Raise Errors -> ejemplo funcion imprimir_nombre(x:str)
 
+- Indicar si un string s palindromo
+- Dividir 2 números sin utilizar el símbolo de division y multiplicacion
+- Iterando un array solo una vez encuentra el N mayor y menor
+- Crea una API con los cuatro métodos más comunes. Pero que solo pueda acceder un usuario que haya iniciado sesión antes.
+- Llena una base de datos utilizando la API que creas. Exporta el contenido de la consulta en CSV
 
-Desafios:
-1 - Indicar si un string s palindromo
-2 - Dividir 2 números sin utilizar el símbolo de division y multiplicacion
-3 - Iterando un array solo una vez encuentra el N mayor y menor
-4 - Crea una API con los cuatro métodos más comunes. Pero que solo pueda acceder un usuario que haya iniciado sesión antes.
-5- Llena una base de datos utilizando la API que creas. Exporta el contenido de la consulta en CSV
+- I/O
+- Error Handling
 
-Mapping Types: Built-in Types — Python 3.12.2 documentation 
-dictionaries, I/O, classe, Error Handling
+- Estructuras de datos
+  - Listas, tuplas y diccionarios en Python.
+  - Métodos y operaciones comunes en cada tipo de estructura de datos.
+  - Ejercicios prácticos para trabajar con estructuras de datos.
 
-Importar funciones desde otros proyectos: funcion hola, importar. Usar if name: https://www.freecodecamp.org/espanol/news/python-if-name-main/
-
-Ejercicios
-Condicionales (if, else, elif) para tomar decisiones en el código.
-
-Estructuras de datos
-- Listas, tuplas y diccionarios en Python.
-- Métodos y operaciones comunes en cada tipo de estructura de datos.
-- Ejercicios prácticos para trabajar con estructuras de datos.
-
-Introducción a la programación orientada a objetos
-- Conceptos básicos de la programación orientada a objetos (clases, objetos, atributos, métodos).
-- Creación de clases y objetos en Python.
-- Ejercicios prácticos para aplicar conceptos de programación orientada a objetos.
+- Introducción a la programación orientada a objetos
+  - Conceptos básicos de la programación orientada a objetos (clases, objetos, atributos, métodos).
+  - Creación de clases y objetos en Python.
+  - Ejercicios prácticos para aplicar conceptos de programación orientada a objetos.
